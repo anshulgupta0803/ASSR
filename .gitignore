@@ -1,4 +1,4 @@
 *.wav
 *.cha
 smallDatasetLabels.txt
-
+.ipynb_checkpoints
