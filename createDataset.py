@@ -20,7 +20,7 @@ datasetDirectory = "dataset"
 labelFileName = "datasetLabels.txt"
 
 try:
-    if not os.path.exists(sys.argv[1]):
+    if not os.path.exists(sys.argv[1]) or not os.path.isdir(sys.argv[1]):
         raise
     audioAndChaFilesDirectory = sys.argv[1]
 except:
